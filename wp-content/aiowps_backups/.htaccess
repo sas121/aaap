@@ -1,0 +1,6 @@
+<<<<<<< HEAD
+order deny,allow
+=======
+order deny,allow
+>>>>>>> 8d355b84ecc85f96d9cfb9b238c61179687f6f5a
+deny from all

@@ -1,0 +1,145 @@
+/*******************************************
+             SETTING FONTS
+*******************************************/
+@font-face {
+    font-family: 'ChronicleDisplay-Italic';
+    src: url('fonts/ChronicleDisplay-Italic.eot?') format('eot'), 
+        url('fonts/ChronicleDisplay-Italic.woff') format('woff'), 
+        url('fonts/ChronicleDisplay-Italic.ttf')  format('truetype'),
+        url('fonts/ChronicleDisplay-Italic.svg#ChronicleDisplay-Italic') format('svg');
+}
+
+@font-face {
+    font-family: 'ChronicleDisplay-Italic2';
+    src: url('../fonts/ChronicleDisplay-Italic2.eot?') format('eot'), 
+        url('../fonts/ChronicleDisplay-Italic2.woff') format('woff'), 
+        url('../fonts/ChronicleDisplay-Italic2.ttf')  format('truetype'),
+        url('../fonts/ChronicleDisplay-Italic2.svg#ChronicleDisplay-Italic2') format('svg');
+}
+
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url('fonts/Gotham-Bold.eot?') format('eot'), 
+        url('fonts/Gotham-Bold.woff') format('woff'), 
+        url('fonts/Gotham-Bold.ttf')  format('truetype'),
+        url('fonts/Gotham-Bold.svg#Gotham-Bold') format('svg');
+}
+
+@font-face {
+    font-family: 'Gotham-Bold2';
+    src: url('../fonts/Gotham-Bold2.eot?') format('eot'), 
+        url('../fonts/Gotham-Bold2.woff') format('woff'), 
+        url('../fonts/Gotham-Bold2.ttf')  format('truetype'),
+        url('../fonts/Gotham-Bold2.svg#Gotham-Bold2') format('svg');
+}
+
+@font-face {
+    font-family: 'Gotham-Light';
+    src: url('fonts/Gotham-Light.eot?') format('eot'), 
+        url('fonts/Gotham-Light.woff') format('woff'), 
+        url('fonts/Gotham-Light.ttf')  format('truetype'),
+        url('fonts/Gotham-Light.svg#Gotham-Light') format('svg');
+}
+
+@font-face {
+    font-family: 'Gotham-Light2';
+    src: url('../fonts/Gotham-Light2.eot?') format('eot'), 
+        url('../fonts/Gotham-Light2.woff') format('woff'), 
+        url('../fonts/Gotham-Light2.ttf')  format('truetype'),
+        url('../fonts/Gotham-Light2.svg#Gotham-Light2') format('svg');
+}
+
+@font-face {
+    font-family: 'Gotham-Medium';
+    src: url('fonts/Gotham-Medium2.eot?') format('eot'), 
+        url('fonts/Gotham-Medium2.woff') format('woff'), 
+        url('fonts/Gotham-Medium2.ttf')  format('truetype'),
+        url('fonts/Gotham-Medium2.svg#Gotham-Medium') format('svg');
+}
+
+@font-face {
+    font-family: 'Gotham-Book';
+    src: url('fonts/Gotham-Book.eot?') format('eot'), 
+        url('fonts/Gotham-Book.woff') format('woff'), 
+        url('fonts/Gotham-Book.ttf')  format('truetype'),
+        url('fonts/Gotham-Book.svg#Gotham-Book') format('svg');
+}
+
+@font-face {
+    font-family: 'ChronicleDisplay-Roman';
+    src: url('fonts/ChronicleDisplay-Roman.eot?') format('eot'), 
+        url('fonts/ChronicleDisplay-Roman.woff') format('woff'), 
+        url('fonts/ChronicleDisplay-Roman.ttf')  format('truetype'),
+        url('fonts/ChronicleDisplay-Roman.svg#ChronicleDisplay-Roman') format('svg');
+}
+@font-face {
+    font-family: 'ChronicleDisplay-Roman2';
+    src: url('../fonts/ChronicleDisplay-Roman2.eot?') format('eot'), 
+        url('../fonts/ChronicleDisplay-Roman2.woff') format('woff'), 
+        url('../fonts/ChronicleDisplay-Roman2.ttf')  format('truetype'),
+        url('../fonts/ChronicleDisplay-Roman2.svg#ChronicleDisplay-Roman2') format('svg');
+}
+
+.price_one{
+    color: #00a0dc;
+    font-size: 30px;
+    font-family: 'Georgia';
+}
+
+.price_two{
+    color: #00a88f;
+    font-size: 30px;
+    font-family: 'Georgia';
+}
+
+.price_three{
+    color: #82ba4e;
+    font-size: 30px;
+    font-family: 'Georgia';
+}
+
+.price_text{
+    color: #616366;
+    font-size: 13px;
+    font-family: 'Georgia';
+    text-transform: uppercase;
+}
+
+.price_one_title{
+    font-size: 19px;
+    color: #00a0dc;
+    text-transform: uppercase;  
+}
+.price_two_title{
+    font-size: 19px;
+    color: #00a88f;
+    text-transform: uppercase;  
+}
+.price_three_title{
+    font-size: 19px;
+    color: #82ba4e;
+    text-transform: uppercase;  
+}
+
+.footnote{
+    font-style: italic;
+    color: #616366;
+    line-height: 19px;
+    font-size: 13px;
+}
+
+.box_link{
+    background: url('../images/link_button.jpg') transparent no-repeat left;
+    padding-left: 18px;
+    font-size: 16px;
+    color:#616366 !important;
+    font-family: 'Gotham-Bold2';
+    margin-top: 19px;
+    text-transform: uppercase;
+    padding-top: 1px;
+}
+
+.blue_text{
+    color: #00a0dc;
+}
+

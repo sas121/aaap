@@ -1,0 +1,88 @@
+/* CSS for the Synthesis admin screens */
+
+.template {
+    display: none;
+}
+#wpwrap #icon-synthesis-management {
+	background-image: url(../images/synthesis-logo.png);
+}
+/* for the plugin monitor */
+.smash-panel {
+	border: 1px solid #E3E3E3;
+	max-width: 800px;
+	padding: 5px;
+	margin: 5px 0 5px 0;
+}
+
+.smash-panel .float-right {
+	float: right;
+}
+
+.smash-panel .plugin-count {
+	margin-right: 10px;
+}
+
+.smash-panel .delete-snapshot {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 12pt;
+}
+
+#synthesis-software-monitor h3.title {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+#s3-push-folders,
+#s3-rsync-folders {
+	width: 300px;
+}
+
+#s3-copies {
+	width: 50px;
+}
+
+#s3-backup-settings .s3-error {
+    padding: 5px;
+    border: 1px solid #c00;
+    background-color: #ffebe8;
+    border-radius: 3px;
+}
+
+#s3-backup-settings .backup-status-message {
+	font-style: italic;
+	margin-left: 20px;
+}
+
+.backup-restore-spinner {
+	width: 16px;
+	height: 16px;
+	margin: 0;
+	padding: 0;
+	float: none;
+	display: none;
+}
+
+.quota-progress-wrapper {
+	width: 300px;
+	height: 20px;
+	border: 1px solid black;
+	padding: 1px;
+}
+
+.quota-progress {
+	height: 100%;
+}
+
+.quota-progress.green {
+	background-color: green;
+}
+
+.quota-progress.yellow {
+	background-color: orange;
+}
+
+.quota-progress.red {
+	background-color: red;
+}
